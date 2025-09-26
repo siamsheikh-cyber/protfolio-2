@@ -8,8 +8,8 @@ import { TiSocialFacebookCircular } from "react-icons/ti"
 
 function RightContact() {
     return <>
-        <div className="lg:w-[50%] flex items-start">
-            <div className=" lg:pl-20 pt-30">
+        <div className="lg:w-[50%] md:hidden flex items-start mb-15 lg:mb-0">
+            <div className=" lg:pl-20 sm:pt-30">
                 <div className="flex gap-5 mb-7 items-center ">
                     <MdOutlineAlternateEmail className="bg-gray-500  cursor-pointer text-[45px] dark:text-black p-3 rounded-full hover:bg-[#16F2B3] hover:scale-105 transition-all duration-300" />
 
@@ -23,11 +23,11 @@ function RightContact() {
                     <LuMapPin className="bg-gray-500  cursor-pointer text-[45px] dark:text-black p-3 rounded-full hover:bg-[#16F2B3] hover:scale-105 transition-all duration-300" />
                     <p className="text-1xl text-black dark:text-white">DHAKA, BANGLADESH</p>
                 </div>
-                <div className="flex flex-wrap gap-10 mt-13">
-                    <FaGithub className="bg-gray-500 text-white  cursor-pointer text-[65px] dark:text-black p-5 rounded-full hover:bg-[#16F2B3] hover:scale-105 transition-all duration-300" />
-                    <IoLogoLinkedin className="bg-gray-500 text-white  cursor-pointer text-[65px] dark:text-black p-5 rounded-full hover:bg-[#16F2B3] hover:scale-105 transition-all duration-300" />
-                    <FaSquareInstagram className="bg-gray-500  text-white cursor-pointer text-[65px] dark:text-black p-5 rounded-full hover:bg-[#16F2B3] hover:scale-105 transition-all duration-300" />
-                    <TiSocialFacebookCircular className="bg-gray-500  cursor-pointer text-[65px] dark:text-black p-5 rounded-full hover:bg-[#16F2B3] hover:scale-105 transition-all duration-300 text-white" />
+                <div className="flex flex-wrap gap-5 lg:gap-7 mt-13">
+                    <FaGithub className="bg-gray-500 text-white  cursor-pointer text-[55px] sm:text-[65px] dark:text-black p-4 rounded-full hover:bg-[#16F2B3] hover:scale-105 transition-all duration-300" />
+                    <IoLogoLinkedin className="bg-gray-500 text-white  cursor-pointer text-[55px] sm:text-[65px] dark:text-black p-4 rounded-full hover:bg-[#16F2B3] hover:scale-105 transition-all duration-300" />
+                    <FaSquareInstagram className="bg-gray-500  text-white cursor-pointer text-[55px] sm:text-[65px] dark:text-black p-4 rounded-full hover:bg-[#16F2B3] hover:scale-105 transition-all duration-300" />
+                    <TiSocialFacebookCircular className="bg-gray-500  cursor-pointer text-[55px] sm:text-[65px] dark:text-black p-4 rounded-full hover:bg-[#16F2B3] hover:scale-105 transition-all duration-300 text-white" />
                 </div>
             </div>
             <div>

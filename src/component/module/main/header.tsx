@@ -15,10 +15,10 @@ function Header() {
                 >
                     <img
                         src="https://flowbite.com/docs/images/logo.svg"
-                        className="h-8"
+                        className="h-8 hidden sm:block"
                         alt="Logo"
                     />
-                    <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+                    <span className="self-center text-[20px] sm:text-2xl font-semibold whitespace-nowrap dark:text-white">
                         SIAM SHEIKH
                     </span>
                 </a>
