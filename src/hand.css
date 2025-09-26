@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+
+body {
+    font-family: "Libre Baskerville", serif;
+
+}
+
+
+.gradient-text {
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(to right, #12C85B, #f87171, #6C62FF);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+
+
+
+    /* dark:bg-gradient-to-r dark:from-[#12C85B] dark:via-[#6C62FF] dark:to-yellow-500 dark:bg-clip-text dark:text-transparent */
+}
