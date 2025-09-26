@@ -1,7 +1,10 @@
+import LayoutOfExperience from "@/component/module/experience/layoutOfExperience";
+
 function Services() {
     return (
         <div>
-            i'm from Services
+
+            <LayoutOfExperience />
         </div>
     );
 }

@@ -1,7 +1,9 @@
+import LayoutOfProject from "@/component/module/project/layoutOfProject";
+
 function Project() {
     return (
         <div>
-            i'm from Project
+            <LayoutOfProject />
         </div>
     );
 }

@@ -1,7 +1,9 @@
+import LayoutOfContact from "@/component/module/contact/layoutOfContact";
+
 function Contact() {
     return (
         <div>
-            i'm from contact
+            <LayoutOfContact />
         </div>
     );
 }
