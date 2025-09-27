@@ -22,3 +22,89 @@ body {
 
     /* dark:bg-gradient-to-r dark:from-[#12C85B] dark:via-[#6C62FF] dark:to-yellow-500 dark:bg-clip-text dark:text-transparent */
 }
+
+
+.box-solid {
+    width: 165px;
+    height: 175px;
+    border: 3px solid transparent;
+    border-radius: 12px;
+
+    /* Gradient Border */
+    border-image: linear-gradient(90deg, green, cyan, blue) 1;
+
+    /* একটু glow এর মতো দেখানোর জন্য */
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.6),
+        0 0 20px rgba(0, 128, 255, 0.4);
+
+    animation: border-animate 8s linear infinite;
+}
+
+@keyframes border-animate {
+    0% {
+        border-image: linear-gradient(90deg, green, cyan, blue) 1;
+    }
+
+    25% {
+        border-image: linear-gradient(180deg, blue, cyan, green) 1;
+    }
+
+    50% {
+        border-image: linear-gradient(270deg, cyan, green, blue) 1;
+    }
+
+    75% {
+        border-image: linear-gradient(360deg, green, blue, cyan) 1;
+    }
+
+    100% {
+        border-image: linear-gradient(450deg, green, cyan, blue) 1;
+    }
+}
+
+
+.glow-text {
+
+
+    /* Gradient background */
+    background: linear-gradient(90deg, green, cyan, blue);
+
+    /* Standard property for Firefox */
+    background-clip: text;
+
+    /* Chrome/Safari/Edge */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* fallback for Firefox */
+    color: transparent;
+
+    /* Glow */
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.6), 0 0 20px rgba(0, 128, 255, 0.4);
+
+    /* Animated background */
+    background-size: 300% 300%;
+    animation: text-animate 3s linear infinite;
+}
+
+@keyframes text-animate {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    25% {
+        background-position: 50% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    75% {
+        background-position: 50% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
