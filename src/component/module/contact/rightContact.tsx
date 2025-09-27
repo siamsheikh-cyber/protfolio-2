@@ -8,7 +8,7 @@ import { TiSocialFacebookCircular } from "react-icons/ti"
 
 function RightContact() {
     return <>
-        <div className="lg:w-[50%] md:hidden flex items-start mb-15 lg:mb-0">
+        <div className="lg:w-[50%] lg:block md:hidden flex items-start mb-15 lg:mb-0">
             <div className=" lg:pl-20 sm:pt-30">
                 <div className="flex gap-5 mb-7 items-center ">
                     <MdOutlineAlternateEmail className="bg-gray-500  cursor-pointer text-[45px] dark:text-black p-3 rounded-full hover:bg-[#16F2B3] hover:scale-105 transition-all duration-300" />
@@ -31,7 +31,7 @@ function RightContact() {
                 </div>
             </div>
             <div>
-                <button className="hidden sm:block font-bold border dark:border-gray-400 px-3 py-2 [writing-mode:vertical-rl] text-center relative text-black dark:text-white">
+                <button className="hidden  font-bold border dark:border-gray-400 px-3 py-2 [writing-mode:vertical-rl] text-center relative text-black dark:text-white">
                     CONTACT
                 </button>
             </div>
