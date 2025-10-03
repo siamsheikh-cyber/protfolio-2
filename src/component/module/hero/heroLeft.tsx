@@ -16,7 +16,7 @@ function LeftHero() {
             <div className="flex gap-4 py-6">
                 {/* <!-- Button 1 --> */}
                 <button className="px-6 py-3  font-semibold text-white 
-                    bg-gradient-to-r from-[#4758DD] via-[#7D50EC] to-white
+                    bg-gradient-to-r from-[#4758DD] via-[#8155f0] to-white
                     shadow-lg hover:bg-gradient-to-r hover:from-white hover:via-red-500 hover:to-pink-500  cursor-pointer
                     ">
                     HIRE ME
