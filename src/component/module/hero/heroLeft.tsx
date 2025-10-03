@@ -11,7 +11,7 @@ function LeftHero() {
 
             <h2 className="text-[38px] sm:text-[50px] font-bold pb-3.5 dark:bg-gradient-to-r dark:from-[#14d662] dark:via-[#6e64fd] dark:to-yellow-500 dark:bg-clip-text dark:text-transparent">I AM SIAM SHEIKH</h2>
 
-            <p className="text-[18px] sm:text-[28px] font-bold pb-3.5 dark:bg-gradient-to-r dark:from-[#6C62FF] dark:via-[#12C85B] dark:to-yellow-500 dark:bg-clip-text dark:text-transparent">MERN STACK DEVELOPER</p>
+            <p className="text-[18px] sm:text-[28px] font-bold pb-3.5 dark:bg-gradient-to-r dark:from-[#6C62FF] dark:via-[#14d762] dark:to-yellow-500 dark:bg-clip-text dark:text-transparent">MERN STACK DEVELOPER</p>
 
             <div className="flex gap-4 py-6">
                 {/* <!-- Button 1 --> */}
