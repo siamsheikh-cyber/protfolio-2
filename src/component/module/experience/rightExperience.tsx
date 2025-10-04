@@ -1,4 +1,5 @@
 import { FaPhone } from "react-icons/fa6";
+import { motion } from "framer-motion";
 
 function RightExperience() {
     return (
@@ -9,21 +10,49 @@ function RightExperience() {
                     </span>
                 </span>
                 <div className="flex items-center gap-6 sm:gap-8 mb-15">
-                    <h2 className="text-[100px] sm:text-[120px] font-bold text-[#854FEE] z-10 glow-text">
+
+                    <motion.h2
+                        className="text-[100px] sm:text-[120px] font-bold text-[#854FEE] z-10 glow-text"
+                        initial={{ opacity: 0, x: 100 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true, amount: 0.5 }}
+                        transition={{ duration: 1, ease: "easeOut" }}
+                    >
                         2
-                    </h2>
-                    <p className="font-bold text-black dark:text-white text-[18px] sm:text-[25px]"> Years
+                    </motion.h2>
+
+
+                    <motion.p
+                        className="font-bold text-black dark:text-white text-[18px] sm:text-[25px]"
+                        initial={{ opacity: 0, y: 50 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true, amount: 0.5 }}
+                        transition={{ duration: 1, ease: "easeOut" }}
+                    >
+                        Years
                         <span className="block">Experience</span>
                         <span className="block">Working</span>
-                    </p>
+                    </motion.p>
+
                 </div>
-                <div className="flex items-center gap-x-3.5">
-                    <h2><FaPhone className="text-[40px] sm:text-[50px] "></FaPhone></h2>
+
+
+                <motion.div
+                    className="flex items-center gap-x-3.5"
+                    initial={{ opacity: 0, y: -50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, amount: 0.5 }}
+                    transition={{ duration: 0.8, ease: "easeOut" }}
+                >
+                    <h2>
+                        <FaPhone className="text-[40px] sm:text-[50px]" />
+                    </h2>
                     <div className="">
                         <p className="text-[#854FEE] text-[16px] sm:text-[20px] font-[300]">call us now</p>
                         <p className="text-[19px] sm:text-[25px] font-bold">(+88)-013-3953-9820</p>
                     </div>
-                </div>
+                </motion.div>
+
             </div>
         </div>
     );
