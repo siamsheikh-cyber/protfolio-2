@@ -11,7 +11,7 @@ export default function Header() {
             initial={{ y: -60, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
-            className="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-black/80 backdrop-blur-lg border-b border-gray-200/30 dark:border-gray-800/30 shadow-sm"
+            className=" top-0 left-0 right-0 z-50 bg-white/80 dark:bg-black/80 backdrop-blur-lg border-b border-gray-200/30 dark:border-gray-800/30 shadow-sm"
         >
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-5">
                 {/* Logo */}
